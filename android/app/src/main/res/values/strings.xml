@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sonos Arc</string>
+    <string name="widget_description">Night Mode and Speech Enhancement for your Sonos Arc</string>
+</resources>

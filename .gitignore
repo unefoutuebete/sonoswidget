@@ -2,6 +2,12 @@
 xcuserdata/
 DerivedData/
 .build/
+.idea/
+.gradle/
+**/build/
+local.properties
+*.iml
+.cxx/
 *.xcuserstate
 *.moved-aside
 *.hmap

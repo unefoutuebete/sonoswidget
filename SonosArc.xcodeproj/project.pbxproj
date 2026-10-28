@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10A1C1C7DB8B18E95A43FC74 /* SonosDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212DDAE40A806AB16181A76E /* SonosDiscovery.swift */; };
+		1A943D7856EEBBE682FFE5D9 /* ArcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546234A8A4F733D0CD9DD2F8 /* ArcController.swift */; };
+		1B6F62F9E6AD423ACC9E7745 /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FD2AF1D285945B358D06F6 /* AppIntents.framework */; };
+		1D7FD2A03976134617CA391B /* SonosDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212DDAE40A806AB16181A76E /* SonosDiscovery.swift */; };
+		202B085BB1F468F7CAB53014 /* SonosSpeaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733072BDC5608CEBA800D2F4 /* SonosSpeaker.swift */; };
+		22C44898C7C1D95C8C80BE43 /* SonosSpeaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733072BDC5608CEBA800D2F4 /* SonosSpeaker.swift */; };
+		24FC0EB368B233F40CAB5A0C /* SonosSOAPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565416CAC091CD443C63FD21 /* SonosSOAPClient.swift */; };
+		2A7538A25D8A6BB353F644BB /* SonosError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CA22E81AD5222446A46A6 /* SonosError.swift */; };
+		2C32E73E3A5635DEF36FED18 /* SonosXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA8DB784EB8654F8391503 /* SonosXML.swift */; };
+		363431886E6BFC8E706CF987 /* ToggleIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32CD7EAE730AAADDEFEE32 /* ToggleIntents.swift */; };
+		3CFAD8038BBFE125804B58F9 /* SonosSOAPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565416CAC091CD443C63FD21 /* SonosSOAPClient.swift */; };
+		412363BA065E8EEAC17F9974 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6D00D5D3B96A2F2F1D438C /* WidgetKit.framework */; };
+		4140E0DBAA88530FE5D5FF25 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B019784CCFCE8F2B995930F /* SharedStore.swift */; };
+		4220C312CDC6C78774436ECA /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B05346C5202CF11BECA620 /* SwiftUI.framework */; };
+		4622595C8BA4961D42195B47 /* ConfigureArcIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E73846C89A565BA5A238DC /* ConfigureArcIntent.swift */; };
+		4F25FC421210D51A45A386B3 /* ArcWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1718B250766B6737B22767D9 /* ArcWidget.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5074F053FD9B8669A72A586E /* ArcSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8368AA0F72DB3B51884F425 /* ArcSession.swift */; };
+		5CB6B18BB12747295B7686A1 /* EQTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65188AAED659D83CBABD3F /* EQTypes.swift */; };
+		5E19F1BEC865EE5028AB37BD /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BC413879FD944BEC53B088 /* AppGroup.swift */; };
+		73732A2A232AA94F14055CFE /* ConfigureArcIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E73846C89A565BA5A238DC /* ConfigureArcIntent.swift */; };
+		752E801108F9C8F5D3580E9A /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BC413879FD944BEC53B088 /* AppGroup.swift */; };
+		78D38D6C0A4A156EAE7D0938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F743FD58F1AFA8B8AC45B /* ContentView.swift */; };
+		7E67F334F577E598C5EBDDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8875A0BBA1FB912F9FBD71D /* Assets.xcassets */; };
+		956A18811D5762310EC99FFD /* SonosXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA8DB784EB8654F8391503 /* SonosXML.swift */; };
+		A4220C3970640EFD66FFF579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58EDB5F7F223766E896BE87E /* Assets.xcassets */; };
+		BD22601C91FDF9BE76BDDC98 /* ArcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546234A8A4F733D0CD9DD2F8 /* ArcController.swift */; };
+		C3338FE67EF0368038CB0B17 /* SonosError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CA22E81AD5222446A46A6 /* SonosError.swift */; };
+		DC04CD1FCDCBD71ABD3291E4 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B019784CCFCE8F2B995930F /* SharedStore.swift */; };
+		DCB9897F4E43A5040DEBED1C /* ArcWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673535444B39F6DBB222BA4 /* ArcWidgetBundle.swift */; };
+		DF5843AED809C4FE57D009F6 /* EQTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65188AAED659D83CBABD3F /* EQTypes.swift */; };
+		E646B2D03AEDB30FED58FEE1 /* SonosArcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB76EC4EF9FEB162822A517C /* SonosArcApp.swift */; };
+		EAFC46DF805BA1D84F1F9B9F /* SonosKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2409F1C520CE4A08A72C6664 /* SonosKitTests.swift */; };
+		EE9B81DBF264297080025E98 /* ToggleIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B32CD7EAE730AAADDEFEE32 /* ToggleIntents.swift */; };
+		FD489E620F05C979B99582D9 /* ArcWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69CBC8332DE178A8F12DD9 /* ArcWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		745C32BE21E7EC61EDDEB99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13B8AD37560518556409F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA447E0CAF12F3D7D51997E7;
+			remoteInfo = SonosArc;
+		};
+		E895EA8F332FE73123DF08E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13B8AD37560518556409F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18579B9B7F5396FBB67CFA4F;
+			remoteInfo = ArcWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF673D7130AF02B0D8A6F1CE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F25FC421210D51A45A386B3 /* ArcWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1718B250766B6737B22767D9 /* ArcWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = ArcWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E429D0C1EDEC16BFF2FB59B /* SonosArc.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SonosArc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		212DDAE40A806AB16181A76E /* SonosDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosDiscovery.swift; sourceTree = "<group>"; };
+		2140185CD1F25A16E999CA51 /* SonosArcTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SonosArcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2409F1C520CE4A08A72C6664 /* SonosKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosKitTests.swift; sourceTree = "<group>"; };
+		29E73846C89A565BA5A238DC /* ConfigureArcIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureArcIntent.swift; sourceTree = "<group>"; };
+		2F5CA22E81AD5222446A46A6 /* SonosError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosError.swift; sourceTree = "<group>"; };
+		4673535444B39F6DBB222BA4 /* ArcWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcWidgetBundle.swift; sourceTree = "<group>"; };
+		4E6D00D5D3B96A2F2F1D438C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		546234A8A4F733D0CD9DD2F8 /* ArcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcController.swift; sourceTree = "<group>"; };
+		565416CAC091CD443C63FD21 /* SonosSOAPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosSOAPClient.swift; sourceTree = "<group>"; };
+		58EDB5F7F223766E896BE87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65FD2AF1D285945B358D06F6 /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
+		6D9F743FD58F1AFA8B8AC45B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		733072BDC5608CEBA800D2F4 /* SonosSpeaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosSpeaker.swift; sourceTree = "<group>"; };
+		7B019784CCFCE8F2B995930F /* SharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
+		7CAA8DB784EB8654F8391503 /* SonosXML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosXML.swift; sourceTree = "<group>"; };
+		8B32CD7EAE730AAADDEFEE32 /* ToggleIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleIntents.swift; sourceTree = "<group>"; };
+		92B05346C5202CF11BECA620 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9B69CBC8332DE178A8F12DD9 /* ArcWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcWidget.swift; sourceTree = "<group>"; };
+		9F65188AAED659D83CBABD3F /* EQTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EQTypes.swift; sourceTree = "<group>"; };
+		B1BC413879FD944BEC53B088 /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+		B8368AA0F72DB3B51884F425 /* ArcSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcSession.swift; sourceTree = "<group>"; };
+		BB967689D6BE5C2ECDADDC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C8875A0BBA1FB912F9FBD71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB76EC4EF9FEB162822A517C /* SonosArcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosArcApp.swift; sourceTree = "<group>"; };
+		CEFD829B39F453D7F1A33E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4527E10F2CD7746B8B8284B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412363BA065E8EEAC17F9974 /* WidgetKit.framework in Frameworks */,
+				4220C312CDC6C78774436ECA /* SwiftUI.framework in Frameworks */,
+				1B6F62F9E6AD423ACC9E7745 /* AppIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25CB1BCE5B80F02A7269BA5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1718B250766B6737B22767D9 /* ArcWidget.appex */,
+				1E429D0C1EDEC16BFF2FB59B /* SonosArc.app */,
+				2140185CD1F25A16E999CA51 /* SonosArcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		762589DAFD3E715639B779A7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B1BC413879FD944BEC53B088 /* AppGroup.swift */,
+				546234A8A4F733D0CD9DD2F8 /* ArcController.swift */,
+				9F65188AAED659D83CBABD3F /* EQTypes.swift */,
+				7B019784CCFCE8F2B995930F /* SharedStore.swift */,
+				212DDAE40A806AB16181A76E /* SonosDiscovery.swift */,
+				2F5CA22E81AD5222446A46A6 /* SonosError.swift */,
+				565416CAC091CD443C63FD21 /* SonosSOAPClient.swift */,
+				733072BDC5608CEBA800D2F4 /* SonosSpeaker.swift */,
+				7CAA8DB784EB8654F8391503 /* SonosXML.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		77E423231B9E08F30524BA0F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B8368AA0F72DB3B51884F425 /* ArcSession.swift */,
+				C8875A0BBA1FB912F9FBD71D /* Assets.xcassets */,
+				6D9F743FD58F1AFA8B8AC45B /* ContentView.swift */,
+				CEFD829B39F453D7F1A33E92 /* Info.plist */,
+				CB76EC4EF9FEB162822A517C /* SonosArcApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9B342F74477EADC40F7C1D13 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				29E73846C89A565BA5A238DC /* ConfigureArcIntent.swift */,
+				8B32CD7EAE730AAADDEFEE32 /* ToggleIntents.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		B243FBC5E6E9FB8FAAA7D075 = {
+			isa = PBXGroup;
+			children = (
+				77E423231B9E08F30524BA0F /* App */,
+				9B342F74477EADC40F7C1D13 /* Intents */,
+				762589DAFD3E715639B779A7 /* Shared */,
+				E71CC205339876BE61160B1A /* Tests */,
+				F733927D03F3C63B73BF8584 /* Widget */,
+				D08D5BDAB1E0CC401BF5EC53 /* Frameworks */,
+				25CB1BCE5B80F02A7269BA5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D08D5BDAB1E0CC401BF5EC53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65FD2AF1D285945B358D06F6 /* AppIntents.framework */,
+				92B05346C5202CF11BECA620 /* SwiftUI.framework */,
+				4E6D00D5D3B96A2F2F1D438C /* WidgetKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E71CC205339876BE61160B1A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2409F1C520CE4A08A72C6664 /* SonosKitTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F733927D03F3C63B73BF8584 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				9B69CBC8332DE178A8F12DD9 /* ArcWidget.swift */,
+				4673535444B39F6DBB222BA4 /* ArcWidgetBundle.swift */,
+				58EDB5F7F223766E896BE87E /* Assets.xcassets */,
+				BB967689D6BE5C2ECDADDC51 /* Info.plist */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12F928A9AB5A4AABF3331CA9 /* SonosArcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CFD05A8FC689F6EC06D21FE /* Build configuration list for PBXNativeTarget "SonosArcTests" */;
+			buildPhases = (
+				C8514965177D6773B5A4D1E1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				462CAE2FFBDBD607A7BFD530 /* PBXTargetDependency */,
+			);
+			name = SonosArcTests;
+			packageProductDependencies = (
+			);
+			productName = SonosArcTests;
+			productReference = 2140185CD1F25A16E999CA51 /* SonosArcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18579B9B7F5396FBB67CFA4F /* ArcWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2959706EB634CF73399E8F18 /* Build configuration list for PBXNativeTarget "ArcWidget" */;
+			buildPhases = (
+				5AD8F1961E6C7B0C28462E0B /* Sources */,
+				7F0D3787AB5110A2D4F1CF22 /* Resources */,
+				D4527E10F2CD7746B8B8284B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcWidget;
+			packageProductDependencies = (
+			);
+			productName = ArcWidget;
+			productReference = 1718B250766B6737B22767D9 /* ArcWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AA447E0CAF12F3D7D51997E7 /* SonosArc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850F74FA79345B00CCFCF486 /* Build configuration list for PBXNativeTarget "SonosArc" */;
+			buildPhases = (
+				CD76331D5F0551E1C6B004E6 /* Sources */,
+				00AEE38FB4E349FAD472FF2B /* Resources */,
+				BF673D7130AF02B0D8A6F1CE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF2CEA738CBF5ED2A5C25E87 /* PBXTargetDependency */,
+			);
+			name = SonosArc;
+			packageProductDependencies = (
+			);
+			productName = SonosArc;
+			productReference = 1E429D0C1EDEC16BFF2FB59B /* SonosArc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13B8AD37560518556409F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					12F928A9AB5A4AABF3331CA9 = {
+						ProvisioningStyle = Automatic;
+					};
+					18579B9B7F5396FBB67CFA4F = {
+						ProvisioningStyle = Automatic;
+					};
+					AA447E0CAF12F3D7D51997E7 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 67FBEF724CB4BFEF5D7D81EC /* Build configuration list for PBXProject "SonosArc" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B243FBC5E6E9FB8FAAA7D075;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 25CB1BCE5B80F02A7269BA5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA447E0CAF12F3D7D51997E7 /* SonosArc */,
+				18579B9B7F5396FBB67CFA4F /* ArcWidget */,
+				12F928A9AB5A4AABF3331CA9 /* SonosArcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00AEE38FB4E349FAD472FF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E67F334F577E598C5EBDDA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F0D3787AB5110A2D4F1CF22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4220C3970640EFD66FFF579 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD8F1961E6C7B0C28462E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E19F1BEC865EE5028AB37BD /* AppGroup.swift in Sources */,
+				1A943D7856EEBBE682FFE5D9 /* ArcController.swift in Sources */,
+				FD489E620F05C979B99582D9 /* ArcWidget.swift in Sources */,
+				DCB9897F4E43A5040DEBED1C /* ArcWidgetBundle.swift in Sources */,
+				73732A2A232AA94F14055CFE /* ConfigureArcIntent.swift in Sources */,
+				5CB6B18BB12747295B7686A1 /* EQTypes.swift in Sources */,
+				4140E0DBAA88530FE5D5FF25 /* SharedStore.swift in Sources */,
+				1D7FD2A03976134617CA391B /* SonosDiscovery.swift in Sources */,
+				2A7538A25D8A6BB353F644BB /* SonosError.swift in Sources */,
+				3CFAD8038BBFE125804B58F9 /* SonosSOAPClient.swift in Sources */,
+				202B085BB1F468F7CAB53014 /* SonosSpeaker.swift in Sources */,
+				2C32E73E3A5635DEF36FED18 /* SonosXML.swift in Sources */,
+				363431886E6BFC8E706CF987 /* ToggleIntents.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8514965177D6773B5A4D1E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAFC46DF805BA1D84F1F9B9F /* SonosKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD76331D5F0551E1C6B004E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752E801108F9C8F5D3580E9A /* AppGroup.swift in Sources */,
+				BD22601C91FDF9BE76BDDC98 /* ArcController.swift in Sources */,
+				5074F053FD9B8669A72A586E /* ArcSession.swift in Sources */,
+				4622595C8BA4961D42195B47 /* ConfigureArcIntent.swift in Sources */,
+				78D38D6C0A4A156EAE7D0938 /* ContentView.swift in Sources */,
+				DF5843AED809C4FE57D009F6 /* EQTypes.swift in Sources */,
+				DC04CD1FCDCBD71ABD3291E4 /* SharedStore.swift in Sources */,
+				E646B2D03AEDB30FED58FEE1 /* SonosArcApp.swift in Sources */,
+				10A1C1C7DB8B18E95A43FC74 /* SonosDiscovery.swift in Sources */,
+				C3338FE67EF0368038CB0B17 /* SonosError.swift in Sources */,
+				24FC0EB368B233F40CAB5A0C /* SonosSOAPClient.swift in Sources */,
+				22C44898C7C1D95C8C80BE43 /* SonosSpeaker.swift in Sources */,
+				956A18811D5762310EC99FFD /* SonosXML.swift in Sources */,
+				EE9B81DBF264297080025E98 /* ToggleIntents.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		462CAE2FFBDBD607A7BFD530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA447E0CAF12F3D7D51997E7 /* SonosArc */;
+			targetProxy = 745C32BE21E7EC61EDDEB99A /* PBXContainerItemProxy */;
+		};
+		DF2CEA738CBF5ED2A5C25E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18579B9B7F5396FBB67CFA4F /* ArcWidget */;
+			targetProxy = E895EA8F332FE73123DF08E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		043B74BD0918D51EE0B0B96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5559CC44A1B720110E2C9DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mba13.sonosarc.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonosArc.app/SonosArc";
+			};
+			name = Release;
+		};
+		6540E8B06CA6C9A095AD5FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mba13.sonosarc.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SonosArc.app/SonosArc";
+			};
+			name = Debug;
+		};
+		733153384C434973B9302900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Widget/ArcWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Arc Modes";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mba13.sonosarc.widget;
+				PRODUCT_NAME = ArcWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BB146E53D311B7B23ECB6FB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/SonosArc.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sonos Arc";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Arc looks for your Sonos speaker on Wi-Fi to read and change Night Mode and Speech Enhancement.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mba13.sonosarc;
+				PRODUCT_NAME = SonosArc;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BE7DD85E049E7824F5F624DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/SonosArc.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sonos Arc";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Arc looks for your Sonos speaker on Wi-Fi to read and change Night Mode and Speech Enhancement.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mba13.sonosarc;
+				PRODUCT_NAME = SonosArc;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BEF5FC704B52263521EC9237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Widget/ArcWidget.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Arc Modes";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mba13.sonosarc.widget;
+				PRODUCT_NAME = ArcWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CC45911DEE0C9FE6FC6A426F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2959706EB634CF73399E8F18 /* Build configuration list for PBXNativeTarget "ArcWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				733153384C434973B9302900 /* Debug */,
+				BEF5FC704B52263521EC9237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		67FBEF724CB4BFEF5D7D81EC /* Build configuration list for PBXProject "SonosArc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC45911DEE0C9FE6FC6A426F /* Debug */,
+				043B74BD0918D51EE0B0B96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6CFD05A8FC689F6EC06D21FE /* Build configuration list for PBXNativeTarget "SonosArcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6540E8B06CA6C9A095AD5FAE /* Debug */,
+				5559CC44A1B720110E2C9DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		850F74FA79345B00CCFCF486 /* Build configuration list for PBXNativeTarget "SonosArc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7DD85E049E7824F5F624DC /* Debug */,
+				BB146E53D311B7B23ECB6FB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A13B8AD37560518556409F17 /* Project object */;
+}
